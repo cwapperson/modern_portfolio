@@ -1,0 +1,25 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio",
+  "main": "index.js",
+  "homepage": "https://cwapperson.github.io/modern_porfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Chris Apperson",
+  "license": "MIT",
+  "dependencies": {
+    "ghpages": "0.0.10",
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwapperson/modern_portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cwapperson/modern_portfolio/issues"
+  }
+}
